@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title></title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+      });
+    </script> 
+  </head>
 
-<head>
-  <title>Our Company</title>
-  <link href="site.css" rel="stylesheet">
-</head>
 
-<body>
+  <body>
+    <div id="header"></div>
+    <!--Remaining section-->
+    <div id="footer"></div>
+  </body>
+</html>
+
+<html> 
+  <head>
+    <title>Our Company</title>
+    <link href="site.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <nav id="nav01"></nav>
 
   <div id="main">
-    <h1>Welcome to Our Company</h1>
-    <h2>Web Site Main Ingredients</h2>
+    <h1>Welcome to DAY USC</h1>
+    <h2>Web Site Main Ingredients:</h2>
 
     <p>Pages (HTML)</p>
     <p>Style Sheets (CSS)</p>
     <p>Computer Code (JavaScript)</p>
     <p>Live Data (Files and Databases)</p>
+
     <footer id="foot01"></footer>
   </div>
-  <script src "script.js"></script>
-</body>
+
+  <script src="script.js"></script>
+
+  </body>
+
 </html>

@@ -1,7 +1,18 @@
+
+/*
+brand colors:
+#E8BB65: gold
+#DD4544: light red
+#B83E26: dark red
+#97C7C7: light blue
+#CBCA88: green
+#F5F0E6: offwhite
+
+ */
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    background-color: dimgrey;
+    background-color: #F5F0E6;
     color: #696969;
     padding: 3px;
 }
@@ -16,9 +27,16 @@ body {
 
 h1 {
     font-family: Georgia, serif;
-    border-bottom: 3px solid #cc9900;
-    color: #996600;
-    font-size: 30px;
+    border-bottom: 10px solid #E8BB65;
+    color: #E8BB65;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    border-bottom: 10px solid #000000;
+    color: #000000;
+    font-size: 48px;
 }
 
 table {
@@ -40,4 +58,44 @@ table tr:nth-child(odd) {
 }
 table tr:nth-child(even) {
     background-color: #ffffff;
+}
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: black;
+}
+
+/*header style*/
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #B83E26;
+    color: white;
+    font-size: 72px;
+  }
+
+  /* link style */
+.link
+{
+   color:#E8BB65;
+   text-decoration: none; 
+   background-color: none;
 }
